@@ -35,5 +35,59 @@ public class JobDetails {
 	private Timestamp createdTimestamp;
 	@Column(name = "UPDATED_TIMESTAMP")
 	private Timestamp updatedTimestamp;
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getJobId() {
+		return jobId;
+	}
+	public void setJobId(int jobId) {
+		this.jobId = jobId;
+	}
+	public String getJobStatus() {
+		return jobStatus;
+	}
+	public void setJobStatus(String jobStatus) {
+		this.jobStatus = jobStatus;
+	}
+	public String getUserName() {
+		return userName;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+	public String getFacilityId() {
+		return facilityId;
+	}
+	public void setFacilityId(String facilityId) {
+		this.facilityId = facilityId;
+	}
+	public boolean isFlagStatus() {
+		return flagStatus;
+	}
+	public void setFlagStatus(boolean flagStatus) {
+		this.flagStatus = flagStatus;
+	}
+	public String getCreatedBy() {
+		return createdBy;
+	}
+	public void setCreatedBy(String createdBy) {
+		this.createdBy = createdBy;
+	}
+	public Timestamp getCreatedTimestamp() {
+		return createdTimestamp;
+	}
+	public void setCreatedTimestamp(Timestamp createdTimestamp) {
+		this.createdTimestamp = createdTimestamp;
+	}
+	public Timestamp getUpdatedTimestamp() {
+		return updatedTimestamp;
+	}
+	public void setUpdatedTimestamp(Timestamp updatedTimestamp) {
+		this.updatedTimestamp = updatedTimestamp;
+	}
 
 }
